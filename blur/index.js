@@ -1,7 +1,7 @@
 
 vnjs.on('blur', function(data){
-	const { image, size, duration } = data;
-	let el = document.getElementById(image);
+	const { layer, size, duration } = data;
+	let el = document.getElementById(layer);
 
 
 	Object.assign(el.style, {

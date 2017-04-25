@@ -1,5 +1,5 @@
 
-vnjs.on('greyscale', function(data){
+vnjs.on('grayscale', function(data){
 	const { image, size, duration } = data;
 	let el = document.getElementById(image);
 
